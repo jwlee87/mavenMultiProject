@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.calendar_layer{position:relative;width:262px;background:#fff;border:1px solid #4d4d4d}
+.calendar_layer a{color:#a9a9a9; font-size:11px}
+.calendar_layer div{text-align:center;vertical-align:top}
+.calendar_layer div p{padding:0;margin:0}
+.calendar_layer div p em{font-style:normal}
+.calendar_layer .calendar-header{position:relative;width:170px;margin:18px auto 0;line-height:19px}
+.calendar_layer .calendar-rollover{position:absolute;top:0;overflow:hidden;display:inline-block;width:19px;vertical-align:middle;border:1px solid #d9d9d9}
+.calendar_layer .calendar-btn-prev{left:0}
+.calendar_layer .calendar-btn-next{right:0}
+.calendar_layer .calendar-title{float:none;font-size:15px;color:#4d4d4d;font-family:Tahoma,sans-serif;font-weight:bold;vertical-align:middle}
+.calendar_layer table{width:224px;margin:0 auto;text-align:center;table-layout:auto}
+.calendar_layer table *{font-size:11px}
+.calendar_layer thead th{width:32px;height:30px;padding:0;font-weight:normal;color:#666;line-height:22px;text-align:center;border:0}
+.calendar_layer .sun,.calendar_layer .calendar-sun{color:#ff5e5e}
+.calendar_layer .sat,.calendar_layer .calendar-sat{color:#00bff3}
+.calendar_layer td{width:32px;height:30px;padding:0;font-family:Tahoma,NotoSans,sans-serif;line-height:22px;text-align:center;color:#999;border:0}
+.calendar_layer td:first-child{width:32px;padding-left:0}
+.calendar_layer .calendar-body{padding:16px 13px 13px}
+.calendar_layer .calendar-body .selectable{color:#444;background:#edeff2;cursor:pointer}
+.calendar_layer .calendar-body .selected{background:#5d6168;color:#fff}
+.calendar_layer .calendar-body .selectable ~ .selectable{background-clip:padding-box}
+.calendar_layer .calendar-body .calendar-prev-month{color:#aaa}
+.calendar_layer .calendar-footer{display:none;padding-top:15px;font-size:11px;color:#666;line-height:14px}
+.calendar_layer .calendar_custom_area{position:absolute;right:0;bottom:0;left:0;padding-bottom:18px;text-align:center}
+.calendar_layer .btn_calendar{width:45px;height:24px;font-size:12px;color:#333;border:1px solid #ddd}
+.calendar_layer .btn_calendar + .btn_calendar{margin-left:1px}
+.calendar_layer .btn_calendar:hover{color:#4b96e6}
+
+/* 마우스 오버시 하이라이트 */
+.calendar_layer .calendar-body .calendar-date:hover{background:#5d6168;color:#fff}
+/* 앞날짜 선택된 부분 하이라이트 */
+/*.calendar_layer .calendar-body .selectable_start{background-image:url(../img/bg_calendar_selectable_start.gif);background-repeat:no-repeat;background-position:100% 50%}*/
+/* 날짜 선택시 하이라이트 */
+/*.calendar_layer .calendar-body .selectable.selected{background-image:url(../img/bg_calendar_selected.gif);background-repeat:no-repeat;background-position:100% 50%;color:#fff}*/
+
+.ico_cal_prev,.ico_cal_next{width:6px;height:11px;margin-top:4px;vertical-align:top}
+.ico_cal_prev{background-position:-21px -21px}
+.ico_cal_next{background-position:-29px -21px}

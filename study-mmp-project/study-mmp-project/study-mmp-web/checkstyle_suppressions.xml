@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC "-//Puppy Crawl//DTD Suppressions 1.0//EN" "http://www.puppycrawl.com/dtds/suppressions_1_0.dtd">
+
+<suppressions>
+    <!-- Tone down the checking for test code -->
+    <suppress checks="MethodName" files=".*[\\/]src[\\/]test[\\/]"/>
+    <suppress checks="MemberName" files=".*[\\/]src[\\/]test[\\/]"/>
+    <suppress checks="PackageName" files=".*[\\/]src[\\/]test[\\/]"/>
+    <suppress checks="ParameterName" files=".*[\\/]src[\\/]test[\\/]"/>
+
+    <!-- exclude javafaker -->
+    <suppress checks="." files="com[\\/]github[\\/]javafaker[\\/]"/>
+</suppressions>

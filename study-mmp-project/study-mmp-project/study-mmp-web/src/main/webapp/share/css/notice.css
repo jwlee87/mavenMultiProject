@@ -1,0 +1,18 @@
+.tbl_vt table{width:100%;border:0;table-layout:fixed}
+.tbl_vt th,.tbl_vt td{border:0;vertical-align:middle;word-break:break-all}
+.tbl_vt th{height:44px;background:#565960 url(//) no-repeat 0 16px;font-size:12px;color:#fff;text-align:center}
+.tbl_vt th:first-child{background-image:none}
+.tbl_vt td{height:54px;border-bottom:1px solid #ededed;font-size:13px;color:#6e6e6e}
+.tbl_vt tr.last td{border-color:#4b4b4b}
+
+.tbl_notice{margin-top:25px}
+.tbl_notice tr td:first-child{color:#565960;text-align:center}
+.tbl_notice .detail{background:#f5f5f5}
+.tbl_notice .detail .inner{padding:49px 216px 28px 172px;line-height:1.65;color:#333;text-align:left}
+.tbl_notice .detail a{color:#333}
+.tbl_notice .tit{padding:0 28px}
+.tbl_notice .tit_txt{overflow:hidden;position:relative;display:inline-block;max-width:100%;padding:16px 0 17px;color:#333;letter-spacing:-1px;line-height:1.65;vertical-align:top;text-overflow:ellipsis;white-space:nowrap}
+.tbl_notice .on .tit{font-weight:bold}
+.tbl_notice .on .tit_txt{white-space:normal}
+.tbl_notice .count{font-size:12px}
+.tbl_notice .date{font-size:12px;letter-spacing:-1px;text-align:center}

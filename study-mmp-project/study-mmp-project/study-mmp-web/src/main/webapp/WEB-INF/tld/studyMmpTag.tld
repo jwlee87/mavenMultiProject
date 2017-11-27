@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/js/j2ee/web-jsptaglibrary_2_0.xsd"
+version="2.0">
+
+<tlib-version>1.0</tlib-version>
+<short-name>CommonTag</short-name>
+
+<uri></uri>
+<tag>
+	<description>Enum Type Code SelectBox</description>
+	<name>EnumSelectBox</name>
+	<tag-class>study.mmp.web.support.EnumSelectBox</tag-class>
+	<body-content>empty</body-content>
+	<attribute>
+		<name>enumPath</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+	</attribute>
+	<attribute>
+		<name>selectBoxId</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+	</attribute>	
+	<attribute>
+		<name>selectBoxName</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+	</attribute>
+	
+	<attribute>
+		<name>selectedValue</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+	</attribute>
+	
+	<attribute>
+		<name>emptyValueName</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+	</attribute>
+	<attribute>
+		<name>style</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+	</attribute>
+	
+	<attribute>
+		<name>outputType</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+	</attribute>	
+</tag>
+
+
+</taglib>
